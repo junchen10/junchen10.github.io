@@ -16,17 +16,21 @@ body {
   padding-right: 5vw;
 }
 
-.na-active {
-  border-bottom-width: thin;
-  border-bottom: 1px solid black;
-  display: inline;
-}
+
 
 .nav-link {
   border-bottom: .25rem solid transparent;
   color: black;
 }
 
+
+@media (min-width: 48em) {
+  .na-active {
+  border-bottom-width: thin;
+  border-bottom: 1px solid black;
+  display: inline;
+}
+}
 
 .cover-container {
   max-width: 42em;
