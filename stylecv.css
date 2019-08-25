@@ -1,0 +1,40 @@
+html,
+body {
+  height: 100%;
+  background-color: #f5f5f5;
+}
+
+body {
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -ms-flex-pack: center;
+  -webkit-box-pack: center;
+  justify-content: center;
+  text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+  padding-left: 5vw;
+  padding-right: 5vw;
+}
+
+.na-active {
+  border-bottom-width: thin;
+  border-bottom: 1px solid black;
+  display: inline;
+}
+
+.nav-link {
+  border-bottom: .25rem solid transparent;
+  color: black;
+}
+
+
+.cover-container {
+  max-width: 42em;
+}
+
+/*
+ * Footer
+ */
+.mastfoot {
+  color:  #cccccc;
+}
